@@ -1,5 +1,9 @@
 # Beta
 
+Beta is not an actual gem. It is only a example gem setup with my most commonly used tools,
+generated from a combination of jeweler and bundler. The sample gem includes rspec, guard, pry,
+vcr, yard, simplecov and more.
+
 TODO: Write a gem description
 
 ## Installation
