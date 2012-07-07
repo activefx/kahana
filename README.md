@@ -1,8 +1,4 @@
-# Beta
-
-Beta is not an actual gem. It is only a example gem setup with my most commonly used tools,
-generated from a combination of jeweler and bundler. The sample gem includes rspec, guard, pry,
-vcr, yard, simplecov and more.
+# Kahana
 
 TODO: Write a gem description
 
@@ -10,7 +6,7 @@ TODO: Write a gem description
 
 Add this line to your application's Gemfile:
 
-    gem 'beta'
+    gem 'kahana'
 
 And then execute:
 
@@ -18,7 +14,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install beta
+    $ gem install kahana
 
 ## Usage
 

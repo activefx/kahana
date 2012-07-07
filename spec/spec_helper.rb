@@ -7,7 +7,7 @@ $LOAD_PATH.unshift(File.dirname(__FILE__))
 require 'rspec'
 require 'webmock/rspec'
 require 'vcr'
-require 'beta'
+require 'kahana'
 
 # Place sensitive gem configuration files in spec/configuration.yml and
 # ensure that file is included in .gitignore to keep constants such as passwords

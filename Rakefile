@@ -12,12 +12,12 @@ end
 require 'rake'
 
 require 'jeweler'
-require './lib/beta/version.rb'
+require './lib/kahana/version.rb'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
-  gem.name = "beta"
-  gem.version = Beta::VERSION
-  gem.homepage = "http://github.com/activefx/beta"
+  gem.name = "kahana"
+  gem.version = Kahana::VERSION
+  gem.homepage = "http://github.com/activefx/kahana"
   gem.license = "MIT"
   gem.summary = %Q{one-line summary of your gem}
   gem.description = %Q{longer description of your gem}
