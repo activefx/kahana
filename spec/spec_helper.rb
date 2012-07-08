@@ -4,6 +4,8 @@
 
 $LOAD_PATH.unshift(File.join(File.dirname(__FILE__), '..', 'lib'))
 $LOAD_PATH.unshift(File.dirname(__FILE__))
+require 'pry'
+require 'faraday'
 require 'rspec'
 require 'webmock/rspec'
 require 'vcr'

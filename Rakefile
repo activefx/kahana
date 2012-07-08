@@ -19,7 +19,7 @@ Jeweler::Tasks.new do |gem|
   gem.version = Kahana::VERSION
   gem.homepage = "http://github.com/activefx/kahana"
   gem.license = "MIT"
-  gem.summary = %Q{one-line summary of your gem}
+  gem.summary = %Q{Quickly wrap web services or build service oriented architectures with Faraday and EventMachine}
   gem.description = %Q{longer description of your gem}
   gem.email = "mattsolt@gmail.com"
   gem.authors = ["Matthew Solt"]
