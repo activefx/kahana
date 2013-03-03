@@ -1,23 +1,27 @@
 source 'https://rubygems.org'
 
 # Add dependencies required to use your gem here.
-gem "faraday", "~> 0.8.1"
-gem "faraday_middleware", "~> 0.8.8"
+gem "faraday", "~> 0.9.0.pre", :git => "git://github.com/technoweenie/faraday.git"
+gem "faraday_middleware"
 gem "activesupport", "~> 3.2"
 
 # Add dependencies to develop your gem here.
 # Include everything needed to run rake, tests, features, etc.
 group :development do
-  gem 'rspec', '~> 2.10.0'
+  gem 'rspec', '~> 2.12'
   gem 'listen', '>= 0.4.7'
-  gem 'guard', '~> 1.2.3'
+  gem 'guard'
   gem 'guard-rspec'
-  gem 'vcr', '~> 2.2.2'
+  gem 'ruby_gntp'
+  gem 'rb-fsevent'
+  gem 'rb-inotify'
+  gem 'libnotify'
+  gem 'vcr', '~> 2.3'
   gem 'webmock'
-  gem 'yard', '~> 0.8'
-  gem 'bundler', '~> 1.1.4'
-  gem 'jeweler', '~> 1.8.4'
-  gem 'simplecov', '~> 0.6'
+  gem 'yard'
+  gem 'bundler'
+  gem 'jeweler'
+  gem 'simplecov'
   gem 'pry'
 end
 

@@ -11,6 +11,17 @@ require 'webmock/rspec'
 require 'vcr'
 require 'kahana'
 
+# Notifications for guard
+require 'rbconfig'
+case RbConfig::CONFIG['host_os']
+when /darwin/i
+  require 'rb-fsevent'
+  require 'ruby_gntp'
+when /linux/i
+  require 'rb-inotify'
+  require 'libnotify'
+end
+
 # Place sensitive gem configuration files in spec/configuration.yml and
 # ensure that file is included in .gitignore to keep constants such as passwords
 # and API keys private in publically released gems

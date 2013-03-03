@@ -1,7 +1,8 @@
+#require 'active_support'
+
 module Kahana
-  module Service
+  module Architecture
     extend ActiveSupport::Concern
-    include Kahana::Architecture
 
     # Include ActiveModel & Kahana modules here
 

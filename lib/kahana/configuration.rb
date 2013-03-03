@@ -3,9 +3,12 @@ require 'kahana/defaults'
 
 module Kahana
   module Configuration
+    #extend self
 
     OPTIONS = [
       :http_adapter
+      # :user_agent,
+      # :proxy
     ]
 
     attr_accessor *OPTIONS
@@ -32,7 +35,7 @@ module Kahana
     end
 
     def options
-      defaults.merge!(settings)
+      defaults.merge(settings)
     end
 
     def reset!

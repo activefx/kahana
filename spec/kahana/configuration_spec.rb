@@ -4,12 +4,8 @@ describe "Kahana::Configuration" do
 
   before(:each) do
     @default_adapter = Faraday.default_adapter
-    @sample_adapter = :typhoeus
+    @sample_adapter = :em_http
     Kahana.reset!
-  end
-
-  it "for testing purposes, sample_adapter should never match default_adapter" do
-    @default_adapter.should_not == @sample_adapter
   end
 
   context ".configure" do
