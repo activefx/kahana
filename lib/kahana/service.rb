@@ -1,7 +1,7 @@
 module Kahana
   module Service
     extend ActiveSupport::Concern
-    # include Kahana::Architecture
+    include Kahana::Architecture
 
     included do
 
@@ -36,8 +36,6 @@ module Kahana
       #attr_accessor :configured_options
 
     end
-
-
 
     # Creates a new API
     def initialize(options = {})

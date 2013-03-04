@@ -5,6 +5,9 @@ module Kahana
     extend ActiveSupport::Concern
 
     # Include ActiveModel & Kahana modules here
+    include Kahana::Error
+    include Kahana::Connection
+    include Kahana::Request
 
     # Specify Modules here with methods specific to Kahana
     MODULES = []
